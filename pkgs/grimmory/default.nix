@@ -6,7 +6,7 @@ let
 
   jar = fetchurl {
     url = "https://github.com/grimmory-tools/grimmory/releases/download/v${version}/grimmory.jar";
-    sha256 = ""; # nix-prefetch-url <url> --type sha256
+    sha256 = "sha256-D37a6MxNDdtdjzJmQBwmaCBgqM/G+wBWdPnFN2tSj/g=";
   };
 
   kepubifyVersion = "4.0.4";
